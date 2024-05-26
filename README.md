@@ -7,4 +7,4 @@ A 1-D version of the ZEUS 2-D CODE which solves hydrodynamic equations is applie
 
 <img src="https://latex.codecogs.com/gif.image?\inline&space;\large&space;\dpi{110}\begin{equation}\frac{D}{Dt}\equiv\frac{\partial}{\partial&space;t}&plus;v\cdot\nabla\end{align}" title="\begin{equation}\frac{D}{Dt}\equiv\frac{\partial}{\partial t}+v\cdot\nabla\end{align}" />
 
-
+$x_b(i)=x_a(i+\frac{1}{2})$
