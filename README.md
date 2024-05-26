@@ -9,13 +9,13 @@ A 1-D version of the ZEUS 2-D CODE which solves hydrodynamic equations is applie
 
 $x_b(i)=x_a(i+\frac{1}{2})$
 
-$ \rho_i^n=d(i) \\$
+$ \rho_i^n=d(i) $
 
-   $ v_i^n=v(i) \\$
+   $ v_i^n=v(i) $
    
-  $  p_i^n=p(i) \\$
+  $  p_i^n=p(i) $
   
-   $ \epsilon_i^n=e(i) \\$
+   $ \epsilon_i^n=e(i) $
    
    $ T_i^n=Temp(i) $
 
