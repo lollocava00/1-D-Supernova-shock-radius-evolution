@@ -3,7 +3,7 @@ A 1-D version of the ZEUS 2-D CODE which solves hydrodynamic equations is applie
 
 ![equation](https://latex.codecogs.com/gif.image?\dpi{110}\begin{align}\frac{D\rho}{Dt}&=-\rho\nabla\cdot&space;v\\\rho\frac{Dv}{Dt}&=-\nabla&space;p\\\frac{D\epsilon}{Dt}&=-p\nabla\cdot&space;v\end{align})
 
-![equation](https://latex.codecogs.com/gif.image?\large&space;\dpi{110}\begin{equation}\frac{D}{Dt}\equiv\frac{\partial}{\partial&space;t}&plus;v\cdot\nabla\end{align})
+$\frac{D}{Dt}\equiv\frac{\partial}{\partial&space;t}&plus;v\cdot\nabla\$
 
 <img src="https://latex.codecogs.com/gif.image?\inline&space;\large&space;\dpi{110}\begin{equation}\frac{D}{Dt}\equiv\frac{\partial}{\partial&space;t}&plus;v\cdot\nabla\end{align}" title="\begin{equation}\frac{D}{Dt}\equiv\frac{\partial}{\partial t}+v\cdot\nabla\end{align}" />
 
