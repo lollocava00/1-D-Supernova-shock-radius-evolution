@@ -19,3 +19,10 @@ $ \rho_i^n=d(i) $
    
    $$ T_i^n=Temp(i) $$
 
+   - $x + y$
+- $x - y$
+- $x \times y$ 
+- $x \div y$
+- $\dfrac{x}{y}$
+- $\sqrt{x}$
+
