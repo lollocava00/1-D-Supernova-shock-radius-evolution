@@ -1,10 +1,9 @@
 # SNR Evolution simulation
-The results presented here are based on a simplified version of the ZEUS-2D hydrodynamic code in an attempt to simulate the evolution of an expanding Supernova Remnant (SNR), both when we neglect or take into account radiative losses.
+The results presented here are based on a simplified version of the ["ZEUS-2D"](https://articles.adsabs.harvard.edu/pdf/1992ApJS...80..753S) code in an attempt to simulate the evolution of an expanding Supernova Remnant (SNR), both when we neglect or take into account radiative losses.
 
-# Introduction to Zeus-2D code and relevant equations
-The code I built is based upon the ["ZEUS-2D"](https://articles.adsabs.harvard.edu/pdf/1992ApJS...80..753S) paper which solves the Hydrodynamics equations in 2 dimensions, I used a one dimensional version of it to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
+I used a one dimensional version of Zeus-2D to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
 
-## Hydro Equations
+##  Zeus-2D code and Hydrodynamic Equations 
 
 The goal of the project is, in its essence, to solve the following set of equations for a specific astrophysical problem: 
 
