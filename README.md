@@ -1,4 +1,4 @@
-# 1-D-Supernova-shock-radius-evolution
+# Introduction to Zeus-2D codee and relevant equations
 The code I built is based upon the !["ZEUS-2D"](https://ui.adsabs.harvard.edu/abs/1992ApJS...80..753S/abstract) paper which solves the Hydrodynamics equations in 2 dimensions, I used a one dimensional version of it to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
 
 ## Hydro Equations
@@ -40,6 +40,8 @@ $$\frac{\partial}{\partial t} \int_V \epsilon dV =-\int_{\partial V} \epsilon v 
    
     (the grid velocity is assumed to be null for our purposes).
 The aforementioned equations are solved on two staggered grids,  named $x_a$ and $x_b$, where $x_b(i)=x_a(i+\frac{1}{2})$. A choice is also available between two differente coordinate systems (cartesian or spherical).
-The code uses the following notation for the relevant quantities:
+
+![Alt text](plots/shocktube.png?raw=true)
+
 
 
