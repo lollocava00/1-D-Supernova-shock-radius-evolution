@@ -1,5 +1,5 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!    program written by Lorenzo Cavazzini.											!!!!
+!!!!    program written by Lorenzo Cavazzini.						!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 MODULE DATA
@@ -499,23 +499,6 @@ real*8,dimension(N) :: d,v,e,p,Temp
 character :: str
 
 	if (j > 0 .and. j < 9) write (str, "(i0)") j
-	! if (j==1) then 
-	! 	str='1'
-	! else if (j==2) then
-	! 	str='2'
-	! else if (j==3) then
-	! 	str='3'
-	! else if (j==4) then
-	! 	str='4'
-	! else if (j==5) then
-	! 	str='5'
-	! else if (j==6) then
-	! 	str='6'
-	! else if (j==7) then
-	! 	str='7'
-	! else if (j==8) then
-	! 	str='8'
-	! end if
 
 	IF(cool_onoff==1) THEN
 		open(j*100,file='results'//str//'_cooling.dat')
