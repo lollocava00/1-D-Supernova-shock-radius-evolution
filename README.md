@@ -74,7 +74,7 @@ The time step over which the DO loop runs is set to:
 
 where the $cfl$ value is increased from $0.01$ to $0.5$ along with the time integration, in the code:
 
-  $$  clf=min(0.5\, , \, clf*1.1).$$
+  $$  clf=min(0.5 \, , \, clf*1.1).$$
 
 Such values for $\Delta t$ always satisfy the stability condition of Upwind I order method; 
 
@@ -114,7 +114,7 @@ $$\Lambda(T)=1.544\cdot 10^{-22}(T_{KeV}/0.0017235)^6 \quad for \quad T<0.001723
 
 Density, pressure, velocity and temperature evolution is computed the same way as for the non-cooling case and
 shown in figures 4 and 5. The behaviour of these quantities is visibly affected by the presence of a cooling function.
-Densities do not remain constant in time, but rather decrease right behind the shock radius and increase at the discontinuity; velocities appear to show a slight increase where the previous case featured a constant decrease; pressure also shows an uneven, faster decrease before the shock radius due to the energy dissipation caused by the cooling function; temperature instead features a small peak right after the discontinuity starting from $ 6\cdot10^4 \,yrs$, which was absent in the no-cooling case.
+Densities do not remain constant in time, but rather decrease right behind the shock radius and increase at the discontinuity; velocities appear to show a slight increase where the previous case featured a constant decrease; pressure also shows an uneven, faster decrease before the shock radius due to the energy dissipation caused by the cooling function; temperature instead features a small peak right after the discontinuity starting from $ 6\cdot10^4 \,yrs$ , which was absent in the no-cooling case.
 
 ![Alt text](plots/hydro_new3.png?raw=true)
 
