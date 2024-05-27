@@ -5,9 +5,9 @@ The code I built is based upon the \textbf{Zeus-2D} paper which solves the Hydro
 
 The goal of the project is, in its essence, to solve the following set of equations for a specific astrophysical problem: 
 
-$$\frac{D\rho}{Dt}     &=-\rho \nabla \cdot v $$
-$$  \rho \frac{Dv}{Dt}   &=-\nabla p  $$
-$$ \frac{D\epsilon}{Dt} &=-p\nabla \cdot v $$
+$$\frac{D\rho}{Dt}     =-\rho \nabla \cdot v $$
+$$  \rho \frac{Dv}{Dt}   =-\nabla p  $$
+$$ \frac{D\epsilon}{Dt} =-p\nabla \cdot v $$
 
 ![equation](https://latex.codecogs.com/gif.image?\dpi{110}\begin{align}\frac{D\rho}{Dt}&=-\rho\nabla\cdot&space;v\\\rho\frac{Dv}{Dt}&=-\nabla&space;p\\\frac{D\epsilon}{Dt}&=-p\nabla\cdot&space;v\end{align})
 
