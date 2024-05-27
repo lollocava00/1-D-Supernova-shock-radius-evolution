@@ -38,7 +38,7 @@ $$ \frac{\partial}{\partial t} \int_V \rho v dV =-\int_{\partial V} \rho v^2 \; 
     
 $$\frac{\partial}{\partial t} \int_V \epsilon dV =-\int_{\partial V} \epsilon v \;dS $$
    
-    (the grid velocity is assumed to be null for our purposes).
+   (the grid velocity is assumed to be null for our purposes).
 The aforementioned equations are solved on two staggered grids,  named $x_a$ and $x_b$, where $x_b(i)=x_a(i+\frac{1}{2})$. A choice is also available between two differente coordinate systems (cartesian or spherical).
 
 ![Alt text](plots/shocktube.png?raw=true)
@@ -56,13 +56,13 @@ The code is set up to allow for the analysis of an expanding SuperNova Remnant (
 The aforementioned characteristics are evaluated both in the presence and lack of radiative cooling as to highlight possible differences. 
 The initial conditions chosen for this setting are typical values in the ISM:
 
-$$d_0&=2\cdot 10^{-24} g/cm^3 $$
+$$d_0=2\cdot 10^{-24} g/cm^3 $$
 
-$$ T_0&=10^4 K $$
+$$ T_0=10^4 K $$
 
-$$e_0&=c_v d_0 T_0 \quad where \quad c_v=2\cdot 10^8 \, cgs $$
+$$e_0=c_v d_0 T_0 \quad where \quad c_v=2\cdot 10^8 \, cgs $$
 
-$$   p_0&=e_0(\gamma -1) \quad where \quad  \gamma=5/3$$
+$$ p_0=e_0(\gamma -1) \quad where \quad  \gamma=5/3$$
 
 The central energy values are set to $E_0 = 10^{51} \, erg$ in order to simulate a realistic supernova output; this allows us to define the central energy density as
 
@@ -80,6 +80,25 @@ Such values for $\Delta t$ always satisfy the stability condition of Upwind I or
 
   $$  \Delta t \leq \frac{\Delta x}{v}$$
 
+## Results without cooling
+The DO loop is performed over a selection of time spans:
+
+  $$ t= 2\cdot 10^4,4\cdot 10^4,6\cdot 10^4,8\cdot 10^4, 10^5, 2\cdot 10^5,3\cdot 10^5, 4\cdot 10^5,5\cdot 10^5 \, yrs $$
+
+at first, the contribution of radiative cooling is neglected.
+The first set of plots shows the evolution of the different quantities between $2\cdot 10^4$ and $10^5$years, while figure 2 only
+focuses on the time span that goes from $10^5$ to $5\cdot 10^5$ years. The scale of the variables on both axis except for the velocity is logarithmic.
+
+In this case a smooth expansion of the shock wave is observed.
+As expected, the points of maximum shock wave pressure are gradually shifted to the outer regions of the cluster. These peaks are also characterised by a decreasing intensity as the shock loses energy by heating the ISM, causing it to slow down. The same applies to the maximum density; the temperature also decreases over time as the shock expands and the injected energy is distributed over a greater volume.
+
+
+
+Each quantity is shown to vary drastically when crossing the shock radius. Density and velocity increase steadily
+up until they reach the point of discontinuity in the fluid, after which their values decrease; pressure remains constant up until very close to the shock radius, while temperature decreases steadily
+and drops right after $R_{shock}$.
+
+The same is true for figure 3, where all the quantities keep evolving following the same trends.
 
 
 
