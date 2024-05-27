@@ -28,7 +28,7 @@ $$\rho \frac{Dv}{Dt} =-\nabla p -\nabla Q $$
 
  $$       \frac{D\epsilon}{Dt}=-p\nabla \cdot v -Q \nabla \cdot v$$
 
- where Q is an \textbf{artificial viscosity term} that will be discussed later; 
+ where Q is an artificial viscosity term that will be discussed later; 
     
   - Transport step, which accounts for the effects of fluid advection:
 
@@ -74,7 +74,7 @@ The time step over which the DO loop runs is set to:
 
 where the $cfl$ value is increased from $0.01$ to $0.5$ along with the time integration, in the code:
 
-  $$  clf=min(0.5 \, , \, clf*1.1).$$
+  $$  clf=min(0.5  , clf*1.1).$$
 
 Such values for $\Delta t$ always satisfy the stability condition of Upwind I order method; 
 
@@ -86,7 +86,7 @@ The DO loop is performed over a selection of time spans:
   $$ t= 2\cdot 10^4,4\cdot 10^4,6\cdot 10^4,8\cdot 10^4, 10^5, 2\cdot 10^5,3\cdot 10^5, 4\cdot 10^5,5\cdot 10^5 \, yrs $$
 
 at first, the contribution of radiative cooling is neglected.
-The first set of plots shows the evolution of the different quantities between $2\cdot 10^4$ and $10^5$years, while figure 2 only
+The first set of plots shows the evolution of the different quantities between $2\cdot 10^4$ and $10^5$ years, while figure 2 only
 focuses on the time span that goes from $10^5$ to $5\cdot 10^5$ years. The scale of the variables on both axis except for the velocity is logarithmic.
 
 In this case a smooth expansion of the shock wave is observed.
@@ -173,7 +173,7 @@ $$    E_{kin}=E_{kin}+\frac{1}{2}\cdot 4\pi d(i) dvl_{1a}(i) v(i)^2 $$
 $$    E_{tot}=E_{th}+E_{kin}$$
 
 The objective of this section is to show whether the energy is conserved in this system. From the following plot one can deduce that, when no cooling function is in action (adiabatic case), the energy content of the system is somewhat conserved, despite a slight decrease, while the changes are more noticeable and abrupt after a certain time step close to $log(t) \sim 4.5$ when a dissipative $\Lambda$ is present; This is consistent with the previous shock radius and x-ray luminosity results in which radiative losses become important around that time. Figure 9 plots the different energy contents in units of $10^{51}\, erg$.
-%they also had the initial energy of the supernova ($e_{in}$) subtracted from them.
+they also had the initial energy of the supernova ($e_{in}$) subtracted from them.
 
 ![Alt text](plots/Energy_1.png?raw=true)
 
