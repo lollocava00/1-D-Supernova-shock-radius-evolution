@@ -1,5 +1,5 @@
 # Introduction to Zeus-2D code and relevant equations
-The code I built is based upon the !["ZEUS-2D"](https://articles.adsabs.harvard.edu/pdf/1992ApJS...80..753S) paper which solves the Hydrodynamics equations in 2 dimensions, I used a one dimensional version of it to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
+The code I built is based upon the ["ZEUS-2D"](https://articles.adsabs.harvard.edu/pdf/1992ApJS...80..753S) paper which solves the Hydrodynamics equations in 2 dimensions, I used a one dimensional version of it to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
 
 ## Hydro Equations
 
