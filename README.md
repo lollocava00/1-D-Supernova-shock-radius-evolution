@@ -92,7 +92,9 @@ focuses on the time span that goes from $10^5$ to $5\cdot 10^5$ years. The scale
 In this case a smooth expansion of the shock wave is observed.
 As expected, the points of maximum shock wave pressure are gradually shifted to the outer regions of the cluster. These peaks are also characterised by a decreasing intensity as the shock loses energy by heating the ISM, causing it to slow down. The same applies to the maximum density; the temperature also decreases over time as the shock expands and the injected energy is distributed over a greater volume.
 
+![Alt text](plots/Hydro_new.png?raw=true)
 
+![Alt text](plots/Hydro_new2.png?raw=true)
 
 Each quantity is shown to vary drastically when crossing the shock radius. Density and velocity increase steadily
 up until they reach the point of discontinuity in the fluid, after which their values decrease; pressure remains constant up until very close to the shock radius, while temperature decreases steadily
