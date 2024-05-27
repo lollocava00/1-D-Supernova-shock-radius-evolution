@@ -32,11 +32,11 @@ $$\rho \frac{Dv}{Dt} =-\nabla p -\nabla Q $$
     
   - Transport step, which accounts for the effects of fluid advection:
 
-       $$ \frac{\partial }{\partial t} \int_V \rho dV =-\int_{\partial V} \rho v \;dS $$
+$$ \frac{\partial }{\partial t} \int_V \rho dV =-\int_{\partial V} \rho v \;dS $$
     
-        $$ \frac{\partial}{\partial t} \int_V \rho v dV =-\int_{\partial V} \rho v^2 \; dS $$
+$$ \frac{\partial}{\partial t} \int_V \rho v dV =-\int_{\partial V} \rho v^2 \; dS $$
     
-         $$\frac{\partial}{\partial t} \int_V \epsilon dV =-\int_{\partial V} \epsilon v \;dS $$
+$$\frac{\partial}{\partial t} \int_V \epsilon dV =-\int_{\partial V} \epsilon v \;dS $$
    
     (the grid velocity is assumed to be null for our purposes).
 The aforementioned equations are solved on two staggered grids,  named $x_a$ and $x_b$, where $x_b(i)=x_a(i+\frac{1}{2})$. A choice is also available between two differente coordinate systems (cartesian or spherical).
