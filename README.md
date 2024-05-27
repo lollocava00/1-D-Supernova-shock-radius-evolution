@@ -1,5 +1,13 @@
 # 1-D-Supernova-shock-radius-evolution
-A 1-D version of the ZEUS 2-D CODE which solves hydrodynamic equations is applied to a  SuperNova Remnant(SNR). The system is evolved for a time t =5x10^5 yrs
+The code I built is based upon the \textbf{Zeus-2D} paper which solves the Hydrodynamics equations in 2 dimensions, I used a one dimensional version of it to reproduce the evolution of a Supernova explosion which is assumed to be spherically symmetric. The numerical approach taken is discussed in the following chapter.
+
+#Hydro Equations
+
+The goal of the project is, in its essence, to solve the following set of equations for a specific astrophysical problem: 
+
+$$\frac{D\rho}{Dt}     &=-\rho \nabla \cdot v $$
+$$  \rho \frac{Dv}{Dt}   &=-\nabla p  $$
+$$ \frac{D\epsilon}{Dt} &=-p\nabla \cdot v $$
 
 ![equation](https://latex.codecogs.com/gif.image?\dpi{110}\begin{align}\frac{D\rho}{Dt}&=-\rho\nabla\cdot&space;v\\\rho\frac{Dv}{Dt}&=-\nabla&space;p\\\frac{D\epsilon}{Dt}&=-p\nabla\cdot&space;v\end{align})
 
